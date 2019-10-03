@@ -1,4 +1,4 @@
 # GeekPortal
 Site de variedades feito com Bootstrap
 
-Criado por Jonas MOnticelli da Silva
+Criado por Jonas Monticelli da Silva
