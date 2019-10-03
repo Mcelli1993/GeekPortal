@@ -1,0 +1,323 @@
+<!--reset-->
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+<!--fin de reset-->
+body {
+    font-family: 'Trebuchet MS',Helvetica,Arial,sans-serif;
+    color: #141414;
+    word-wrap: break-word;
+    line-height: 1.28;
+}
+body {
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+html {
+    color: #000;
+		background-color:#F0FEFF;
+
+}
+#section {
+    margin: 10px auto;
+	width: 50%;
+}
+.messageList .message:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+elemento {
+}
+.messageList .message {
+}
+.messageList .message {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-top: 1px solid #D7EDFC;
+}
+li {
+    list-style: none outside none;
+}
+.messageUserInfo {
+    float: left;
+    width: 124px;
+}
+.messageUserBlock {
+    background: url('../img/tab-selected-light.png') repeat-x scroll center bottom #D7EDFC;
+    border: 1px solid #D7EDFC;
+    border-radius: 5px;
+    position: relative;
+}
+.messageUserBlock div.avatarHolder {
+    background-color: #F0F7FC;
+    padding: 10px;
+    border-radius: 4px;
+}
+.messageUserBlock div.avatarHolder .avatar {
+    display: block;
+    font-size: 0px;
+}
+a.avatar {
+}
+.avatar img {border-style:none; }
+a:link, a:visited {
+    color: #176093;
+    text-decoration: none;
+}
+.messageUserBlock h3.userText {
+    padding: 6px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.messageUserBlock a.username {
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+}
+.messageUserBlock .userBanner {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.userBanner.bannerStaff {
+    color: #176093;
+    background-color: #D7EDFC;
+    border-color: #A5CAE4;
+}
+.userBanner.wrapped {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    position: relative;
+}
+.userBanner {
+    font-size: 11px;
+    background: url('../img/form-button-white-25px.png') repeat-x scroll center top transparent;
+    padding: 1px 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+.messageUserBlock .userBanner:last-child {
+    margin-bottom: 0px;
+}
+.userBanner.bannerPrimary {
+    color: #176093;
+    background-color: #D7EDFC;
+    border-color: #A5CAE4;
+}
+.userBanner.bannerStaff.wrapped span {
+    background-color: #A5CAE4;
+}
+.userBanner.wrapped span.before {
+    border-top-left-radius: 3px;
+    left: -1px;
+}
+.userBanner.wrapped span {
+    position: absolute;
+    top: -4px;
+    width: 5px;
+    height: 4px;
+    background-color: inherit;
+}
+.userBanner.bannerStaff.wrapped span {
+    background-color: #A5CAE4;
+}
+.userBanner.wrapped span.after {
+    border-top-right-radius: 3px;
+    right: -1px;
+}
+.messageUserBlock .arrow {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-width: 10px medium 10px 10px;
+    border-style: solid none solid solid;
+    border-color: transparent -moz-use-text-color transparent #D7EDFC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    border-image: none;
+    -moz-border-left-colors: #D7EDFC;
+}
+.messageUserBlock .arrow
+		{
+			position: absolute;
+			top: 10px;
+			right: -10px;
+			
+			display: block;
+			width: 0px;
+			height: 0px;
+			line-height: 0px;
+			
+			border: 10px solid transparent;
+			border-left-color: #d7edfc;
+			-moz-border-left-colors: #d7edfc;
+			border-right: none;
+			
+			/* Hide from IE6 */
+			_display: none;
+		}
+		
+			.messageUserBlock .arrow span
+			{
+				position: absolute;
+				top: -10px;
+				left: -11px;
+				
+				display: block;
+				width: 0px;
+				height: 0px;
+				line-height: 0px;
+				
+				border: 10px solid transparent;
+				border-left-color: #f0f7fc;
+				-moz-border-left-colors: #f0f7fc;
+				border-right: none;
+			}
+.message .messageInfo {
+    padding: 0px;
+    margin-left: 140px;
+    border-bottom: 1px none #000;
+}
+.primaryContent {
+    background-color: #FCFCFF;
+    padding: 10px;
+    border-bottom: 1px solid #D7EDFC;
+}
+.message .messageContent {
+    min-height: 100px;
+    overflow: hidden;
+}
+.messageText {
+    font-size: 11pt;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    line-height: 1.4;
+	padding:15px;
+}
+.message .messageMeta {
+    font-size: 11px;
+    padding: 15px 5px 5px;
+    margin: -5px;
+    overflow: hidden;
+}
+.message .privateControls {
+    float: right;
+}
+.message .privateControls .item:last-child {
+    margin-right: 0px;
+}
+.message .privateControls .item {
+    margin-right: 10px;
+    float:right;
+}
+body .muted, body a.muted, body .muted a {
+    color: #969696;
+}
+.quote {
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 2px 5px 0 22px;
+      margin-bottom: 1px;
+      background: url("../img/quote.png") no-repeat 0px 3px transparent;
+	  
+}
+
+<!--form comentarios-->
+#container_form{}
+.comments-padding {
+    padding: 12px 15px 0pt;
+}
+#respond {
+    margin: 0px auto;
+    width: 455px;
+	padding:25px;
+	border:#CCCCCC 1px solid;
+-webkit-border-top-right-radius: 35px;
+-webkit-border-bottom-left-radius: 35px;
+-moz-border-radius-topright: 35px;
+-moz-border-radius-bottomleft: 35px;
+border-top-right-radius: 35px;
+border-bottom-left-radius: 35px;
+-webkit-box-shadow: 0px 1px 11px 0px rgba(50, 50, 50, 0.68);
+-moz-box-shadow:    0px 1px 11px 0px rgba(50, 50, 50, 0.68);
+box-shadow:         0px 1px 11px 0px rgba(50, 50, 50, 0.68);
+}
+#respond input{margin-bottom:10px; } 
+#respond h3 {
+    margin-top:5px;
+	margin-bottom:5px;
+    font-size: 18px;
+    color: #F18522;
+}
+form {
+    margin: 0pt;
+    padding: 0pt;
+}
+p {
+    color: #555;
+}
+.comments-input-text {
+    font-size: 11px;
+    height: 19px;
+    padding: 3px 4px 0px 3px;
+    width: 172px;
+    background: url('../img/comments_text.jpg') no-repeat scroll left top transparent;
+    border: medium none;
+}
+label {
+    color: #B3B3B3;
+}
+.comments-input-textarea {
+    font-size: 11px;
+    width: 446px;
+    height: 103px;
+    background: url('../img/comments_textarea.jpg') no-repeat scroll left top transparent;
+    border: medium none;
+}
+.button-submit-comment-margin {
+    margin-right: 9px;
+	margin-top:10PX;
+}
+.button-submit-comment {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('../img/button-submit-coment-bg.jpg') repeat-x scroll left top transparent;
+    border: 1px solid #47AE8F;
+    color: #FFF;
+    float: right;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+#form1 .error{
+	float:left;
+	position:absolute;
+	left:-32%;
+	top:5%;
+	padding:5px 10px;	
+	font-size:11px;
+	color:#890000;
+	border:1px solid #500;
+	border-radius:3px;
+
+	}
+#form1 div{ position:relative;}

@@ -1,0 +1,27 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tiempo de generación: 14-07-2014 a las 10:39:35
+-- Versión del servidor: 5.0.51
+-- Versión de PHP: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `comentarios`
+-- 
+
+CREATE TABLE `comentarios` (
+  `post_id` int(5) NOT NULL auto_increment,
+  `publicado` varchar(10) NOT NULL,
+  `fecha` date NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `comentarios` text NOT NULL,
+  `estado` varchar(4) NOT NULL default 'SR',
+  UNIQUE KEY `post_id` (`post_id`,`publicado`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
